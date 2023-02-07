@@ -80,16 +80,16 @@ export default function SelectPrompt({
           className='scroll__btn scroll__btn-start'
           style={
             positionScroll === 'typeFood'
-              ? { background: 'transparent' }
-              : { background: '#fc9e4f' }
+              ? { background: '#fc9e4f' }
+              : { background: 'transparent' }
           }
           onClick={() => {
+            setPositionScroll('addMoreIngredient');
             selectTypeFood.current?.scrollIntoView({
               behavior: 'smooth',
               block: 'nearest',
               inline: 'center',
             });
-            setPositionScroll('addMoreIngredient');
           }}
           type='button'
         ></button>
@@ -97,16 +97,17 @@ export default function SelectPrompt({
           className={'scroll__btn scroll__btn-end'}
           style={
             positionScroll === 'addMoreIngredient'
-              ? { background: 'transparent' }
-              : { background: '#fc9e4f' }
+              ? { background: '#fc9e4f' }
+              : { background: 'transparent' }
           }
           onClick={() => {
+            setPositionScroll('typeFood');
+
             selectMoreIngredients.current?.scrollIntoView({
               behavior: 'smooth',
               block: 'nearest',
               inline: 'center',
             });
-            setPositionScroll('typeFood');
           }}
           type='button'
         ></button>
@@ -115,12 +116,12 @@ export default function SelectPrompt({
         className='selectInfo__btnDelete'
         type='reset'
         onClick={() => {
+          setPositionScroll('typeFood');
           selectTypeFood.current?.scrollIntoView({
             behavior: 'smooth',
             block: 'nearest',
             inline: 'center',
           });
-          setPositionScroll('typeFood');
         }}
       >
         x
