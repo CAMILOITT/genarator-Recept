@@ -1,0 +1,24 @@
+.generate {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.generate__goBack {
+  padding: 10px;
+  background: red;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: block;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.generate__main{
+  width: clamp(200px, 90vw, 914px) ;
+}

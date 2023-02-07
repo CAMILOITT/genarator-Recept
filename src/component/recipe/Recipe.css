@@ -1,0 +1,32 @@
+.recipe {
+  padding: 20px clamp(5px, 3vw, 30px);
+  background: #fc9e4f;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.recipe__instructions {
+  white-space: pre-line;
+  padding: 30px clamp(10px, 5%, 40px);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background: #eedad0;
+  color: #020122;
+}
+.recipe__btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #eedad0;
+  background: #3891a6;
+  font-weight: bold;
+  width: max-content;
+}
+
+/* btn 173 */
