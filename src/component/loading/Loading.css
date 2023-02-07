@@ -16,7 +16,20 @@
   -o-border-radius: 20px;
   margin: 60px auto;
 }
-
+.loading__load {
+  width: 70%;
+  animation: loading 1s 2s infinite;
+  -webkit-animation: loading 1s 2s infinite;
+}
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+  }
+}
 .loading span {
   display: inline-block;
   text-align: center;

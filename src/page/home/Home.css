@@ -6,26 +6,32 @@
 }
 .main {
   display: flex;
-  gap: 30px 20px;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.container__logoMachine {
-  width: 500px;
-  height: 500px;
-}
-.container__infoApp {
-  display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 30px;
   max-width: 500px;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  margin: auto;
+  font-weight: bold;
+}
+.main__title {
+  color: orange;
 }
 
+.main__link {
+  font-weight: bold;
+  padding: 10px 15px;
+  background: orange;
+  display: block;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 .footer {
   text-align: center;
   font-weight: bold;

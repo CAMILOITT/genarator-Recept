@@ -1,4 +1,6 @@
 import './Loading.css';
+import LoadingFood from '../../assets/Recurso1.svg';
+
 const loading = {
   drink: {
     src: '',
@@ -8,20 +10,17 @@ const loading = {
 };
 
 const message = [
-  'prueba',
-  'prueba1',
-  'prueba2',
-  'prueba3',
-  'prueba4',
-  'prueba5',
+  'Cocinando con inteligencia artificial...',
+  'Generando recetas únicas para ti...',
+  'Buscando la mejor combinación para ti...',
+  'Inspirándose en sabores de todo el mundo...',
 ];
 
 export default function Loading() {
   return (
-    <div className="loading">
-      <img src="" alt="image loading" />
-      <span className="loading__text">cargando...</span>
-      <span className="loading__message">
+    <div className='loading'>
+      <img src={LoadingFood} alt='image loading' className='loading__load' />
+      <span className='loading__message'>
         {message[Math.floor(Math.random() * message.length)]}
       </span>
     </div>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 237.3 237.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_19);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-2 {
+        fill: #ffa987;
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-3 {
+        fill: #edab00;
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-4 {
+        fill: #07516b;
+      }
+
+      .cls-5 {
+        fill: #6b0c13;
+      }
+
+      .cls-6 {
+        fill: #ffca02;
+      }
+
+      .cls-7 {
+        fill: #9e0b17;
+      }
+
+      .cls-8 {
+        fill: #ffd952;
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-9 {
+        fill: #3fcab3;
+      }
+
+      .cls-10 {
+        fill: #f87f0a;
+        filter: url(#drop-shadow-1);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="0" />
+      <feGaussianBlur result="blur" stdDeviation="4" />
+      <feFlood flood-color="#000" flood-opacity=".66" />
+      <feComposite in2="blur" operator="in" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <radialGradient id="Degradado_sin_nombre_19" cx="116.49" cy="54.94" fx="116.49" fy="54.94" r="25.04"
+      gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset=".29" stop-color="#f56253" />
+      <stop offset=".48" stop-color="#ed5c50" />
+      <stop offset=".75" stop-color="#d94c4b" />
+      <stop offset="1" stop-color="#c13944" />
+    </radialGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="-12" dy="10" />
+      <feGaussianBlur result="blur-2" stdDeviation="9" />
+      <feFlood flood-color="#000" flood-opacity=".75" />
+      <feComposite in2="blur-2" operator="in" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="-5" dy="8" />
+      <feGaussianBlur result="blur-3" stdDeviation="4" />
+      <feFlood flood-color="#000" flood-opacity=".66" />
+      <feComposite in2="blur-3" operator="in" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="4" />
+      <feGaussianBlur result="blur-4" stdDeviation="3" />
+      <feFlood flood-color="#000" flood-opacity=".75" />
+      <feComposite in2="blur-4" operator="in" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+    <filter id="drop-shadow-5" filterUnits="userSpaceOnUse">
+      <feOffset dx="-11" dy="8" />
+      <feGaussianBlur result="blur-5" stdDeviation="7" />
+      <feFlood flood-color="#000" flood-opacity=".75" />
+      <feComposite in2="blur-5" operator="in" />
+      <feComposite in="SourceGraphic" />
+    </filter>
+  </defs>
+  <g id="Capa_2-2">
+    <g>
+      <path class="cls-4"
+        d="M45.39,211.99C17.75,190.26,0,156.53,0,118.65,0,53.12,53.12,0,118.65,0c24.55,0,47.36,7.46,66.29,20.23" />
+      <path class="cls-9"
+        d="M184.94,20.23c31.59,21.32,52.36,57.44,52.36,98.42,0,65.53-53.12,118.65-118.65,118.65-27.65,0-53.09-9.46-73.27-25.32" />
+      <path class="cls-10"
+        d="M48.39,81.17h.04c2.89,0,3.55,2.23,3.55,5.12l1.69,123.79c0,2.89-2.35,5.24-5.24,5.24h-.04c-2.89,0-5.24-2.35-5.24-5.24l1.62-123.32c0-2.89,.73-5.6,3.62-5.6Z" />
+      <circle class="cls-1" cx="116.63" cy="54.34" r="23.33" />
+      <path class="cls-3" d="M48.4,92.22c-13.78,0-24.94-13.22-24.94-29.53s11.17-29.53,24.94-29.53" />
+      <path class="cls-6" d="M48.4,33.17c13.78,0,24.94,13.22,24.94,29.53s-11.17,29.53-24.94,29.53" />
+      <path class="cls-2"
+        d="M177.56,55.49l4.19,21.43c.11,.57,.93,.56,1.03,0l4.55-25.62c.1-.57,.92-.58,1.03-.01l5.23,26.25c.11,.57,.94,.56,1.03-.02l4.1-24.84c.1-.61,.99-.58,1.04,.04l4.45,51.81c.02,.28-.18,.53-.45,.57-2.27,.31-11.52,2.36-11.64,14.78-.13,14.16,.49,84.83,.49,91.56s-2.73,5.83-4.92,3.72-2.72-3.19-2.72-8.85V119.6s1.18-12.6-10.58-14.23c-.27-.04-.47-.27-.46-.54l2.14-49.22c.04-.88,1.3-.97,1.47-.11Z" />
+      <path class="cls-8" d="M60.47,183.17l55.01-82.31,58.47,81.1s-20.22,22.65-56.74,22.65-56.74-21.44-56.74-21.44Z" />
+      <g>
+        <circle class="cls-7" cx="112.43" cy="61.47" r="2.49" />
+        <circle class="cls-5" cx="132.74" cy="45.71" r="1.63" />
+        <circle class="cls-5" cx="117.98" cy="38.33" r="1.63" />
+        <circle class="cls-5" cx="100.52" cy="44.36" r="1.63" />
+        <circle class="cls-5" cx="103.15" cy="66.4" r="1.63" />
+        <circle class="cls-5" cx="126.2" cy="70.35" r="1.63" />
+      </g>
+    </g>
+  </g>
+</svg>

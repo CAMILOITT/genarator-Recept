@@ -1,0 +1,31 @@
+.messageError {
+  display: flex;
+  margin: 30px auto;
+  background: #fc9e4f;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  max-width: 250px;
+}
+.messageError__message {
+  font-weight: bold;
+  text-align: center;
+}
+
+.messageError__btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background: #eedad0;
+  color: #020122;
+}
