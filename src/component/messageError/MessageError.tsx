@@ -1,5 +1,4 @@
-import { useState } from 'react';
-
+import './MessageError.css'
 export default function MessageError({
   sendIngredients,
   ingredients,
@@ -16,9 +15,12 @@ export default function MessageError({
   };
 }) {
   return (
-    <div>
-      <span>Se produjo un error, inténtalo de nuevo</span>
+    <div className='messageError'>
+      <span className='messageError__message'>
+        Se produjo un error, inténtalo de nuevo
+      </span>
       <button
+        className='messageError__btn'
         onClick={() =>
           sendIngredients(
             ingredients.promptIngredients,
@@ -32,4 +34,3 @@ export default function MessageError({
     </div>
   );
 }
-
